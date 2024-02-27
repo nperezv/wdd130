@@ -18,15 +18,15 @@ Fonts are separated by a | */
   --paragraph-font: "Titillium Web", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #001242;  /* headlines on a white background */ 
+  --headline-color-on-white: white;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #001242; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #005E7C; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #001242  ;
-  --nav-link-color: #001242;
+  --nav-link-color: #B80000;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #001242;
+  --nav-hover-background-color: #005E7C;
 }
 
 
@@ -38,6 +38,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #040F16;
 }
 img {
   display: block;
@@ -177,4 +178,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+tbody td {
+  color: white;
 }
