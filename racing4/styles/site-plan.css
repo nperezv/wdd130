@@ -2,6 +2,8 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 
 :root {
   /* change the values below to your colors from your palette */
@@ -63,7 +65,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
@@ -95,12 +97,12 @@ p {
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
+  background-color: #001242;
   color: var(--paragraph-color-on-color);
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #B80000;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +120,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: var(--paragraph-color-on-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #B80000;
+  background-color: #040F16;
 }
 
 .sitemap {
