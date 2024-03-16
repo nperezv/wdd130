@@ -328,3 +328,79 @@ footer {
     grid-column: 5 / 6;
     grid-row: 4 / 5;
 }
+
+/* form style */
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+
+    border-color: #000;
+  }
+
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  
+  .button {
+    padding-left: 90px;
+    font-size: 20px;
+  }
+  
+  button {
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 0.5em;
+    background-color: rgba(38, 122, 115);
+    font-size: 20px;
+    border-radius: 5px;
+    transition: transform 0.5s, background-color 0.5s;
+    color: white;
+    padding: 1em;
+    border-style: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgba(2, 207, 163, 0.7);
+  }
+#feedback {
+    background-color: rgba(38, 122, 115);
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .9em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
