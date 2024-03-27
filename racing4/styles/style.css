@@ -300,6 +300,12 @@ footer .f1-link {
     text-align: center;
 }
 footer .f2-link {
+    margin-top: 80px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+footer .f3-link {
     margin-top: 110px;
     grid-column: 3/4;
     grid-row: 1/2;
@@ -316,11 +322,19 @@ footer .f2-link a {
     color: white;
     cursor: pointer;
 }
+footer .f3-link a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 footer .f1-link a:hover{
     color: var(--accent1-color);
     transition: 2ms ease;
 }
 footer .f2-link a:hover{
+    color: var(--accent1-color);
+}
+footer .f3-link a:hover{
     color: var(--accent1-color);
 }
 .social {
@@ -330,9 +344,7 @@ footer .f2-link a:hover{
 .social a {
     text-decoration: none;
 }
-.social-media {
-    width: 10%;
-}
+
 .social a {
     margin: 0 5px;
     transition: transform 0.3s ease-in-out;
@@ -342,7 +354,7 @@ footer .f2-link a:hover{
     transform: scale(1.2);
 }
 .social-media {
-    width: 10%;
+    width: 7%;
     transition: transform 0.3s ease-in-out;
 }
 
