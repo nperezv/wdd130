@@ -71,7 +71,39 @@ header {
 }
 .navigation-bar a:hover {
     color: var(--accent1-color);
-    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+form {
+    background: rgb(63, 63, 63);
+    max-width: 40%;
+    border-radius: 4px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+form input {
+    border-style: none;
+    font-style: oblique;
+    font-family: var(--paragraph-font);
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    background: rgb(63, 63, 63);
+    align-items: center;
+    align-content: center;
+}
+form button {
+    border-style: none;
+    text-align: right;
+    background: white;
+    margin-left: 0px;
+    cursor: pointer;
+    background: rgb(63, 63, 63);
+    align-items: center;
+    align-content: center;
+}
+.search-box:focus {
+    outline: none;
 }
 #hero {
     display: grid;
@@ -96,6 +128,23 @@ header {
 #hero-img {
     width: 100%;
     margin-top: -90px;
+}
+.branding {
+    font-family: var(--heading-font);
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+}
+.branding a{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: none;
+}
+.branding a:hover {
+    color: var(--accent1-color);
+    transition: all 0.5s ease;
 }
 .home-grid {
     margin-top: 200px;
