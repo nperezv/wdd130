@@ -1,113 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RFL | Racing! | Home</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RFL | Racing! | Home</title>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <div id="logo_container">
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.png" alt="logo">
-            </a>
-        </div>
-        <nav class="navigation-bar">
-            <a href="index.html">Home</a>
-            <a href="blog.html">Blog</a>
-            <a href="events.html">Events</a>
-            <form action="https://www.google.com/search" method="GET">
-                <input type="text" name="q" class="search-box" placeholder="Search">
-                <button type="submit" class="search-button">&#128270;</button>
-            </form>
-        </nav>
-    </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/car9.webp" alt="People enjoying white water rafting">
-        </div>
-        <section id="hero-msg">
-            <h1><span>THE ADRENALINE-<br>FULLED WORLD OF<br>RACING GAMES</span></h1>
-        </section>
+  <header>
+    <div id="logo_container">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="logo">
+        </a>
     </div>
-    <div class="branding">
-        <a id="game" href="https://.com">NFS</a> 
-        <a id="game" href="https://.com">Forza Horizon 5</a> 
-        <a id="game" href="https://.com">F1</a> 
-        <a id="game" href="https://.com">Asseto Corsa Competizione</a> 
-        <a id="game" href="https://.com">Burnout Paradise</a> 
+    <nav class="navigation-bar">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="events.html">Events</a>
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" class="search-box" placeholder="Search">
+            <button type="submit" class="search-button">&#128270;</button>
+        </form>
+    </nav>
 
+    <div class="container" onclick="toggleMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
     </div>
-    <main class="home-grid">
-        <section class="grid-container">
-            <p>
-                Welcome to the adrenaline-fueled world of racing games, where speed meets strategy, and every curve holds the promise of victory or defeat.
-                Buckle up and prepare to embark on a thrilling journey through the fast-paced realms of virtual racing. We're passionate about all things racing.
-                Whether you're a seasoned pro looking to push your skills to the limit or a casual gamer seeking an exhilarating escape, we have something for everyone.
-                Our collection features a diverse array of racing games, including iconic titles like Need for Speed, Forza Horizon 5, Formula 1, Burnout Paradise,
-                and Assetto Corsa Competizione, catering to every taste and preference in the racing genre.
-                Rev up your engines and prepare to experience the thrill of speed like never before
-            </p>
-        </section>
-        <section class="grid-container-img">
-            <img class="intro-img1" src="./images/car (3).jpg" alt="car drifting">
-        </section>
-            
-        <section class="grid-container2">
-            <p>
-                At RFL, we're not just about racing games—we're about fueling your passion for high-speed excitement and heart-pounding action.
-                Whether you're a die-hard fan of motorsport or just someone who loves the rush of the race, our website is your ultimate destination for all things fast and furious.
-                From classic arcade-style racers to hyper-realistic simulations, we have the games that will get your adrenaline pumping and your heart racing.
-                So strap in, hold on tight, and get ready to embark on the ride of a lifetime. With RFL, the race never ends, and the excitement never stops.
-            </p>
-        </section>
-        <section class="grid-container-img2">
-            <img class="intro-img2" src="./images/car (12).jpg" alt="car parked">
-        </section>
-        <section class="deals-container">
-            <div class="relay-pic">
-                <img class="full-img" src="./images/car14.jpg" alt="drifting">
-            </div>
-            <div class="deals">
-                <h1>DISCOUNT CODES AND UNIQUE OFFERS</h1>
-                <div class="link1">
-                    <a class="deal1" href="https://www.ea.com/es-es/sales/deals">Electronic Arts</a>
-                </div>
-                <div class="link2">
-                    <a class="deal2" href="https://store.steampowered.com/specials/">Steam</a>
-                </div>
-                <div class="link3">
-                    <a class="deal3" href="https://store.epicgames.com/en-US/sales-and-specials">Epic Games</a>
-                </div>    
-                    
-            </div>
-        </section>
+    
+    <div class="menu" id="menu">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="events.html">Events</a>
+      <a href="#">Games</a>
+    </div>
+    
+  </header>
 
-    </main>
+  <div class="slideshow-container">
 
-    <footer>
-        <img class="logo2" src="images/logo.png" alt="logo">
-        <p class="f1">RFL</p>
-        <p class="f2">© 2024 - Nelson Perez</p>
-        <p class="f1-link"><a href="site-plan.html">Site Plan</a></p>
-        <p class="f2-link"><a href="blog.html">Blog</a></p>
-        <p class="f3-link"><a href="events.html">Events</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img class="social-media" src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img class="social-media" src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img class="social-media" src="images/instagram.png" alt="instagram icon">
-            </a>
-            </a>
-            <a href="https://twitch.com" target="_blank">
-                <img class="social-media" src="images/twitch.png" alt="instagram icon">
-            </a>
+    <div class="mySlides fade img1">
+      <img src="./images/car_1.1.png" style="width:100%">
+      <h1 class="slide-text"><span>THE ADRENALINE-<br>FULLED WORLD OF<br>RACING GAMES</span></h1>
+    </div>
+
+    <div class="mySlides fade img2">
+      <img src="images/car_1.2.png" style="width:100%">
+      <h1 class="slide-text">ASSETTO CORSA COMPETIZIONE.<br>
+        REALISTIC RACING PHYSICS,<br>
+        DYNAMIC WEATHER CONDITIONS,<br>
+        AND INTENSE <br>
+        MULTIPLAYER COMPETITION.</h1>
+    </div>
+
+    <div class="mySlides fade img3">
+      <img src="./images/car (10).jpg" style="width:100%">
+      <h1 class="slide-text">FORZA HORIZON 5 <br>
+        THE OPEN-WORLD <br>
+        RACING GAME.</h1>
+    </div>
+
+    <div class="mySlides fade img4">
+      <img src="./images/car_1.3.png" style="width:100%">
+      <h1 class="slide-text">TEST YOUR DRIVING<br>
+        SKILLS ACROSS<br>VARIOUS TERRAINS</h1>
+    </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  <div class="branding">
+    <a id="game" href="https://.com">NFS</a> 
+    <a id="game" href="https://.com">Forza Horizon 5</a> 
+    <a id="game" href="https://.com">F1</a> 
+    <a id="game" href="https://.com">Asseto Corsa Competizione</a> 
+    <a id="game" href="https://.com">Burnout Paradise</a> 
+  </div>
+
+  <main class="home-grid">
+
+    <section class="grid-container">
+        <p>
+            Welcome to the adrenaline-fueled world of racing games, where speed meets strategy, and every curve holds the promise of victory or defeat.
+            Buckle up and prepare to embark on a thrilling journey through the fast-paced realms of virtual racing. We're passionate about all things racing.
+            Whether you're a seasoned pro looking to push your skills to the limit or a casual gamer seeking an exhilarating escape, we have something for everyone.
+            Our collection features a diverse array of racing games, including iconic titles like Need for Speed, Forza Horizon 5, Formula 1, Burnout Paradise,
+            and Assetto Corsa Competizione, catering to every taste and preference in the racing genre.
+            Rev up your engines and prepare to experience the thrill of speed like never before
+        </p>
+    </section>
+    <section class="grid-container-img">
+        <img class="intro-img1" src="./images/car (3).jpg" alt="car drifting">
+    </section>
+    <section class="grid-container2">
+        <p>
+            At RFL, we're not just about racing games—we're about fueling your passion for high-speed excitement and heart-pounding action.
+            Whether you're a die-hard fan of motorsport or just someone who loves the rush of the race, our website is your ultimate destination for all things fast and furious.
+            From classic arcade-style racers to hyper-realistic simulations, we have the games that will get your adrenaline pumping and your heart racing.
+            So strap in, hold on tight, and get ready to embark on the ride of a lifetime. With RFL, the race never ends, and the excitement never stops.
+        </p>
+    </section>
+    <section class="grid-container-img2">
+        <img class="intro-img2" src="./images/car (12).jpg" alt="car parked">
+    </section>
+    <section class="deals-container">
+        <div class="relay-pic">
+            <img class="full-img" src="./images/car14.jpg" alt="drifting">
         </div>
-    </footer>
+        <div class="deals">
+            <h1>DISCOUNT CODES AND UNIQUE OFFERS</h1>
+            <div class="link1">
+                <a class="deal1" href="https://www.ea.com/es-es/sales/deals">Electronic Arts</a>
+            </div>
+            <div class="link2">
+                <a class="deal2" href="https://store.steampowered.com/specials/">Steam</a>
+            </div>
+            <div class="link3">
+                <a class="deal3" href="https://store.epicgames.com/en-US/sales-and-specials">Epic Games</a>
+            </div>    
+                
+        </div>
+    </section>
+
+  </main>
+
+  <footer>
+      <img class="logo2" src="images/logo.png" alt="logo">
+      <p class="f1">RFL</p>
+      <p class="f2">© 2024 - Nelson Perez</p>
+      <p class="f1-link"><a href="site-plan.html">Site Plan</a></p>
+      <p class="f2-link"><a href="blog.html">Blog</a></p>
+      <p class="f3-link"><a href="events.html">Events</a></p>
+      <div class="social">
+          <a href="https://facebook.com" target="_blank">
+              <img class="social-media" src="images/facebook.png" alt="fb icon">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+              <img class="social-media" src="images/twitter.png" alt="twitter icon">
+          </a>
+          <a href="https://instagram.com" target="_blank">
+              <img class="social-media" src="images/instagram.png" alt="instagram icon">
+          </a>
+          </a>
+          <a href="https://twitch.com" target="_blank">
+              <img class="social-media" src="images/twitch.png" alt="instagram icon">
+          </a>
+      </div>
+  </footer>
+
+<script src="./scripts/main.js"></script>
+
 </body>
-</html>
+</html> 
