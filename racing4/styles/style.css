@@ -630,6 +630,7 @@ footer .f3-link a:hover{
     grid-template-columns: 8% 1fr 8%;
     grid-row: 1 / 2;
     z-index: 1000;
+    margin-top: 120px;
     /* justify-items: center;
     align-items: center; */
 }
@@ -665,6 +666,84 @@ footer .f3-link a:hover{
     color: var(--headline-color-on-bg);
     font-size: 25px;
     padding: 15px;
+}
+
+
+/* Events */
+
+.events-container {
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+.link-container {
+    background: var(--primary-color);
+    grid-column: 2 / 9;
+    grid-row: 1 / 9;
+}
+.fl1 {
+    display: grid;
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    font-size: 60px;
+    align-items: center;
+}
+.lnk-cont {
+    display: grid;
+    grid-column: 3 / 6;
+    grid-row: 2 / 5;
+    transition: transform 0.3s ease-in-out;  
+
+}
+.lnk-cont a {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--headline-color-on-bg);
+}
+.lnk-cont a:hover {
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+    transition: all 0.5s ease;
+}
+
+.fl2 { 
+    display: grid;
+    grid-column: 3 / 6;
+    grid-row: 5 / 6;
+    font-size: 50px;
+    align-items: end;
+}
+.event-img {
+    grid-column: 7 / 14;
+    grid-row: 2 / 10;
+    max-width: 100%;
+    z-index: 1;
+    filter: drop-shadow(-10px -10px 45px rgb(0, 0, 0));
+}
+.lnk-cont2 {
+    display: grid;
+    grid-column: 3 / 6;
+    grid-row: 6 / 8;
+    transition: transform 0.3s ease-in-out;  
+
+}
+.lnk-cont2 a {
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--headline-color-on-bg);
+    align-content: end;
+}
+.lnk-cont2 a:hover {
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+    transition: all 0.5s ease;
 }
 
 
@@ -882,6 +961,19 @@ footer .f3-link a:hover{
     }
     .intro-container p {
         font-size: 15px;
+    }
+    .fl2 { 
+        font-size: 15px;
+    }
+    .lnk-cont2 a {
+        font-size: 10px;
+
+    }
+    .fl1 { 
+        font-size: 15px;
+    }
+    .lnk-cont a {
+        font-size: 10px;
     }
 
 }
